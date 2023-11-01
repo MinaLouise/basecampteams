@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(255, 255, 255);
+    position: static;
+}
+
+.content {
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgba(144, 178, 252, 0.136);
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 10%;
+    border-radius: 10px;
+}
+
+.homeBtn {
+    text-align: center;
+    position: relative;
+}
+
+
+
+.homeBtn :link {
+    font-size: 30px;
+    text-decoration: none;
+    color: #67199f;
+}
+
+.homeBtn :hover {
+    font-size: 30px;
+    color: rgb(144, 178, 252);
+}
+
+.teamlist {
+    background-color: rgb(105, 119, 134);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.teamlist ul {
+    list-style: none;
+    padding: 0;
+}
+
+.teamlist a {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+    transition: color 0.3s;
+}
+
+.teamlist a:hover {
+    color: rgb(144, 178, 252);
+}
+
+.teamlist ::after {
+    color: rgb(119, 136, 153);
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: .5em .2em 10px rgba(13, 73, 203, 0.801);
+}
+
+/* Style the child div inside the container */
+.aboutchild {
+    text-align: center;
+}
+
+/* Style the h1 within the child div */
+.aboutchild h1 {
+    font-size: 24px;
+    color: rgb(144, 178, 252);
+}
+
+/* Style the p within the child div */
+.aboutchild p {
+    font-size: 16px;
+    color: #666;
+    margin: 20px 0;
+}
+
+.aboutchild p {
+    font-size: 16px;
+    color: #666;
+    margin: 20px 0;
+}
+
+/* Style the "Team Members" heading */
+.teamchild h2 {
+    font-size: 20px;
+    color: rgb(144, 178, 252);
+    margin-top: 30px;
+}
+
+/* Style the list of team members */
+.teamchild ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style individual team member items */
+.teamchild ul p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
